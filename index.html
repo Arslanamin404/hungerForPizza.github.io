@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hungry For Pizza</title>
+    <link rel="shortcut icon" href="pizza-favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script>
+    function myFunction() {
+      alert("Ye sab na Donkha hai, Free meh Kuch nahi milta")
+    }
+  </script>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>HunGry for PizZa</h1>
+      </div>
+      <div class="form">
+        <div class="form-container">
+          <div class="mini-head">
+            <h1>Get your First Pizza Free</h1>
+            <cite>Limited offer</cite>
+          </div>
+          <form action="" method="post">
+            <label for="Name">Name:</label>
+            <input
+              type="text"
+              name="Name"
+              placeholder="Enter your name"
+              required/> <br><br>
+            <label for="Name">Phone Number:</label>
+            <input
+              type="number"
+              name="Name"
+              placeholder="Enter your Phone Number" max="10" min="10"
+              required
+            /><br><br>
+            <label for="Sex">Sex</label>
+            <select name="Gender" id="Gender" required>
+              <option value="">--Select--</option>
+              <option value="Male">Bhout kiya hai</option>
+              <option value="female">Bas upar-upar say kiya hai</option>
+              <option value="other">Bachpan sy Bitchless</option>
+            </select><br><br>
+            <label for="password">Set Password: </label>
+            <input type="password" name="password" id="password" required>
+          </form>
+          <button type="submit" onclick="myFunction()">Submit</button>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
